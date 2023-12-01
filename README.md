@@ -1,3 +1,3 @@
-# AdventOfCode2023
+# Advent of Code 2023
 
-My solutions for [Advent Of Code 2023](https://adventofcode.com/)
+This is my first year participating in [Advent of Code](https://adventofcode.com/)!
