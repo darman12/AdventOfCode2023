@@ -3,9 +3,6 @@ with open("input.txt") as file:
 
 originalInput = input
 
-solution = 0
-
-
 # remove non-digit characters from strings
 strippedInput = []
 
@@ -22,10 +19,11 @@ for each in input:
     strippedInput.append(newString)
 
 
+sum = 0
+
 # add up first and last numbers of each string
 for i in range(len(strippedInput)):
     
-    solution += int(strippedInput[i][0] + strippedInput[i][len(strippedInput[i]) - 1])
+    sum += int(strippedInput[i][0] + strippedInput[i][len(strippedInput[i]) - 1])
 
-
-print("The answer is: " + str(solution))
+print("The answer is: " + str(sum))
