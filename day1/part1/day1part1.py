@@ -1,5 +1,5 @@
 with open("input.txt") as file:
-    input = file.read().replace('\n',',').split(",")
+    input = file.read().split("\n")
 
 originalInput = input
 
